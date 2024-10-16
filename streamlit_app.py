@@ -20,8 +20,8 @@ def query_llama(payload):
 
 # Streamlit UIの設定
 st.title("Llama Model - Text Generator")
-input_text = st.text_area("Enter your prompt:", "What is Streamlit?")
-button = st.button("Generate Response")
+input_text = st.text_area("Enter your prompt:","what is streamlit?")
+button = st.button("回答を生成する")
 
 if button:
     # Llamaにクエリを送信
