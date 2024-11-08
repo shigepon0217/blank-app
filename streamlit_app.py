@@ -19,6 +19,7 @@ headers = {
     "Authorization": f"Bearer {API_TOKEN}"
 }
 
+
 # Llamaモデルへのリクエストを送信する関数
 def query_llama(payload):
     response = requests.post(API_URL, headers=headers, json=payload)
